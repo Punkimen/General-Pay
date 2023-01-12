@@ -1,0 +1,50 @@
+.header {
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {}
+
+  &__nav {
+    margin: 0 20px;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+  }
+
+  &__list-elem {
+    &:not(:last-child) {
+      margin-right: 40px;
+    }
+  }
+
+  &__handle {}
+
+  &__language {
+    margin-right: 50px;
+  }
+
+  &__btn {}
+}
+
+.dropdown {
+
+  &__header {}
+
+  &__value {}
+
+  &__body {}
+
+  &__body-list {}
+
+  &__body-elem {}
+}
+
+.btn-reset {}
+
+.basket-btn {}
